@@ -1,2 +1,2 @@
 # machine-learning-course
-IDS 705 
+IDS 705: Introductory Machine Learning for Data Science
