@@ -91,7 +91,7 @@ def knn_classif(dataset, centroid=2, plots = True, plot_final = True):
     #calculate SSE
     SSE = 0    
     for K in range(0,centroid):
-        l2 = np.linalg.norm((dataset[0][labels == K] - centroids[K]), axis=1)**2
+        l2 = np.linalg.norm((dataset[0][labels == K] - centroids[K]), axis=1)
         SSE = SSE + l2.sum()
     print('SSE for K-%d = %.2f' % (centroid,SSE))
     return SSE
